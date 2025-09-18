@@ -1,0 +1,53 @@
+/* الاساسيات*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/DC-2.png);
+    position: relative;
+}
+/* تسجيل الدخول*/
+.main-signin{
+    text-align: center;
+    margin-top: 3vh;
+}
+.main-signin label{
+    font-family: sans-serif;
+    font-size: 5vh;
+    color:aqua;
+    font-weight: 300vh;
+}
+.main-signin input{
+    font-size: 3vh;
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+.main-signin button{
+    border: 1vh gray solid;
+    border-radius: 10vh;
+    padding: 1vh 1vh;
+    font-size: 3vh;
+    font-weight: 400;
+    color: black;
+    font-family: sans-serif;
+    background-color: green;
+}
+/* الايقونات*/
+.icons{
+    display: flex;
+    justify-content: space-between;
+    gap: 5vh;
+    font-size: 70px;
+    font-family: sans-serif;
+    color: aqua;
+    margin-top:6vh ;
+}
+/* التجاوب*/
+@media screen and (max-width: 800px) {
+    body {
+       background-image: linear-gradient(to left, rgb(34, 34, 34) , rgb(10, 61, 61));;
+    }
+}

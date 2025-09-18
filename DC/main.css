@@ -1,0 +1,225 @@
+/* الاساسيات*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+/* الشريط الرئيسي*/
+.main-nav{
+    display: flex;
+    background-color: rgb(20, 20, 20);
+    justify-content: space-between;
+    gap: 3vh;
+}
+.main-nav h1{
+  font-size: 5vh;
+  font-family: sans-serif;
+  color: #00ffff; 
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+.main-nav a{
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-top: 2vh;
+    text-decoration: none;
+}
+.main-nav button{
+    background-color: rgba(0, 0, 0, 0.3);
+    border: #00ffff solid 1vh;
+    border-radius:5px ;
+    color: white;
+    font-size:4vh;
+    font-family: sans-serif;
+    padding:  1vh;
+}
+.main-nav button:hover{
+    background-color: #ff4444;
+    transition: 0.3s;
+}
+/* تفاصيل الشركة*/
+.detalies1{
+    margin-top: 2vh;
+}
+.detalies1 h2{
+    color: #00ffff; 
+    text-align: center;
+    text-shadow: 0 0 5px rgba(0, 255, 255, 0.5);
+    font-size: 4vh;
+    font-family: sans-serif;
+}
+.detalies1 .data{
+    margin-top: 1vh;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px solid #00ffff; 
+    font-size: 2vh;
+    font-family: sans-serif;
+    border-radius: 3vh;
+    background-color: black; 
+}
+.detalies1 .succesfuls{
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px solid #00ffff; 
+    font-size: 3vh;
+    font-family: sans-serif;
+    border-radius: 3vh;
+    padding: 2vh 2vh;
+    background-color: black;
+}
+.detalies1 .employes{
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px solid #00ffff; 
+    font-size: 3vh;
+    font-family: sans-serif;
+    border-radius: 3vh;
+    padding: 2vh 2vh;
+    background-color: black;
+}
+/* اهم السلاسل*/
+.detalies2 h3{
+    color: #00ffff; 
+    text-shadow: 0 0 5px rgba(0, 255, 255, 0.5);
+    font-family: sans-serif;
+    font-size: 4vh;
+    text-align: center;
+    margin-top: 2vh;
+}
+.detalies2 dl{
+    text-decoration: none;
+    font-size: 3vh;
+    color: #ffffff;
+    text-shadow: 0 0 3px rgba(255, 255, 255, 0.3);
+    font-family: sans-serif;
+    margin-right:2vh ; 
+}
+
+.detalies2 a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.detalies2 a:hover{
+    color: #ff4444;
+    font-size: 5vh;
+    transform: 4s;
+}
+.detalies3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-right: 25vh;
+    margin-top: 2vh;
+    gap: 5vh;
+}
+/* اهم السلاسل*/
+.DC{
+    border: 2px solid #00ffff; /* حدود أكوا */
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin: auto;
+}
+.DC img{
+    width: 300px;
+    height: 200px;
+    transition: all 0.3s ease;
+}
+.DC p{
+    color: #00ffff; /* أكوا */
+    text-shadow: 0 0 5px rgba(0, 255, 255, 0.3);
+    transition: all 0.3s ease;
+}
+.detalies3 .another{
+    margin-right: 10vh;
+}
+.detalies3 p:hover{
+    font-size: 6vh;
+    color: #ff4444;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+}
+.detalies3 img:hover{
+    width: 50vh;
+    height: 30vh;
+    border: #ff4444 double 3vh;
+    border-radius: 4vh;
+}
+.DC:hover{
+    border: none;
+}
+h1{
+    font-family: sans-serif;
+    font-size: 5vh;
+    color: aqua;
+    text-align: center;
+}
+.detalies3 p{
+    font-size: 5vh;
+    font-family: sans-serif;
+    color: white;
+}
+/* الشريط النهائي*/
+span{
+    color: #ff4444; 
+    text-shadow: 0 0 5px rgba(255, 68, 68, 0.5);
+    font-size: 5vh;
+    font-family: sans-serif;
+    margin-top: 2vh;
+    margin-right: 4vh;
+}
+p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 3vh;
+    color: white;
+}   
+.last-nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 4vh;
+} 
+.last-nav a{
+    font-size: 7vh;
+    text-decoration: none;
+    color: #00ffff; 
+    transition: color 0.3s ease;
+}
+@media screen and (max-width: 800px) {
+    .main-nav button{
+        font-size: 3vh;
+        padding: 5px;
+        border: #00ffff solid 5px;
+    }
+    .main-nav h1{
+        font-size: 4vh;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #00ffff; 
+        text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+        margin-top: 3vh;
+    }
+    .detalies1 p{
+        font-size: 3vh;
+        font-family: sans-serif;
+        text-align: right;
+    }
+    .detalies1 h1{
+        font-size: 4vh;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .detalies3 {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        justify-content: center;
+    }
+    .DC {
+        margin: 1vh;
+    }   
+    span{
+        font-size: 4vh;
+    }
+}

@@ -1,0 +1,80 @@
+/* تسجيل دخول للمستخدم اول صفحة*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right , rgb(2, 70, 70),rgb(100, 90, 90),black);
+}
+h1{
+    font-size: 6vh;
+    font-family: sans-serif;
+    color: aqua;
+    margin-top: 5vh;
+    margin-right: 3vh;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+   
+}
+/* تسجيل الدخول*/
+.login{
+    height: 50vh;
+    width: 50vh;
+    border: 2vh solid gray;
+    border-radius:3vh ;
+}
+.login label{
+    font-size: 5vh;
+    color: white;
+    font-family: sans-serif;
+}
+.login input{
+    font-size: 4vh;
+    font-family: sans-serif;
+    color: black;
+    background-color: white;
+}    
+.login button{
+    font-size: 3vh;
+    font-family: sans-serif;
+    background-color: green;
+    color: white;
+    margin-top: 1vh;
+    padding: 1vh ;
+    margin-right: 7vh;
+}
+#button{
+    font-size: 3vh;
+    font-family: sans-serif;
+    background-color: green;
+    color: white;
+    margin-right: 4vh;
+    padding: 1vh ;
+    margin-right: 7vh;
+}
+.img{
+    border: 2vh solid gray;
+    border-radius: 5vh;
+}
+/* التواصل*/
+.call{
+    display: flex;
+    justify-content: space-between;
+    gap: 5vh;
+    margin-top: 8vh;
+}
+.call a{
+    font-size: 7vh;
+    color:aqua;
+    text-decoration: none;
+}
+/* التجاوب*/
+@media screen and (max-width: 800px) {
+    .img {
+        display: none;
+    }
+}
