@@ -15,4 +15,4 @@ A comprehensive website about the world of DC Comics, built using only HTML and 
 - Font Awesome Icons
 
 ## 🚀 How to run the project
-1. clone Repository: `git clone [link to your repository]`
+1. clone Repository: `git clone [http://boisterous-florentine-d0c113.netlify.app]`
